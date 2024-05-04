@@ -9,15 +9,6 @@ var targetRuns = -1; // total runs scored by other team
 var targetOvers = -1; //total overs
 
 $(document).ready(function () {
-	
-	//////for refresh
-	window.addEventListener('beforeunload', function (e) {
-        // Cancel the event
-        e.preventDefault();
-        // Chrome requires returnValue to be set
-        e.returnValue = '';
-	//////////////// end refresh
-		
 	// window.onresize = function(event) {
 	// 	vpw = $(window).width();
 	// 	vph = $(window).height();
